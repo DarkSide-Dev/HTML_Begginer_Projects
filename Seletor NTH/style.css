@@ -1,0 +1,13 @@
+/* Em relação a quantidade de itens, o número que estiver entre parenteses equivale a mesma posição do item */
+div:nth-child(2){
+
+    background-color: aquamarine;
+
+}
+
+/* Mesma coisa, mas de baixo para cima */
+div:nth-last-child(1){
+
+    background-color: brown;
+
+}

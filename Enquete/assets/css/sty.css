@@ -1,0 +1,31 @@
+body{
+	margin:0;
+	background-color: #666;
+}
+
+.container{
+	width: 100%;
+	height: 500px;
+	background-color: #666;
+	padding-top: 200px;
+}
+
+.container_int{
+	width: 40%;
+	height: 350px;
+	background-color: #CCC;
+	border: 2px solid black;
+	margin: auto;
+	border-radius: 50px;
+}
+
+.container_int form{
+	padding-top: 50px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.container_int form input{
+	font-size: 15px;
+	border-radius: 5px;
+}

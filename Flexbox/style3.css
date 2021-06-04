@@ -1,0 +1,27 @@
+.container{
+	display: flex;
+	background-color: lightgrey;	
+	height: 500px;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	/*align-content: space-around; Formata todo o conteúdo, mas apenas quando tiver quebra de linha */
+}
+
+.container div{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	margin: 10px;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.div10{
+	/*align-self: flex-start;  alinhamento deste item específico (sobre-escreve o align-items)*/
+	order: -1;
+}
+
+.div14{
+	order: 2; /* Ordena */
+}

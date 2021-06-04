@@ -1,0 +1,40 @@
+form{
+	text-align: center;	
+	font-size: 20px;
+}
+
+body{
+	background-color: #666;
+}
+
+input{
+	font-size: 20px;
+    border-radius: 5px;
+    border-color: black;
+    background-color: #A5D5DEFF;
+    cursor: pointer;
+}
+
+button{
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: black;
+    background-color: #A5D5DEFF;
+    box-shadow: 5px 5px 2px 2px black;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+hr{
+    margin-left: 40px;
+    margin-right: 40px; 
+}
+
+#enviar{
+    box-shadow: 5px 5px 2px 2px black;
+    
+}

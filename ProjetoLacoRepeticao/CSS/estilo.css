@@ -1,0 +1,55 @@
+*{
+	font-family: system-ui;
+	text-decoration: none;
+}
+
+body{
+	margin: 0;
+}
+
+.topo{
+	background-color: #2a2928;
+	color: white;
+	height: 53px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.topoint{
+	margin: auto;
+	width: 85%;
+
+}
+
+.menu{
+	float: center;
+}
+
+.menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menu li{
+	float: left;
+	padding: 15px;
+	line-height: 24px;
+	font-size: 15px;
+}
+
+.menu li a{
+	color: white;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+
+.menu li:hover{
+	background-color: #A8A8A8FF;
+}

@@ -1,0 +1,21 @@
+.container{
+	display: flex;
+	background-color: lightgrey;
+
+	
+	/*flex-wrap: wrap;  Permite a quebra de linha */
+	
+	flex-flow: row nowrap; /* Especifica o alinhamento e o wrap */
+	
+	justify-content: center; /* Conteúdo será justificado no centro em relação a direção*/
+	
+	/*align-items: center;  A mesma coisa mas na direção inversa */
+}
+
+.container div{
+	background-color: red;
+	margin: 10px;
+	padding: 10px;
+	font-size: 18px;
+	width: 200px;
+}

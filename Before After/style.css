@@ -1,0 +1,37 @@
+body{
+
+    text-align: center  ;
+
+}
+
+span::before{
+
+    /* content: 'Que legal né ';*/
+    content: '';
+    background-color: red;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+
+}
+
+div{
+    background-color: #0000FF;
+    display: inline-block;
+    color: #FFF;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+div::after{
+    content: '';
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+    border: 20px solid;
+    border-color: #0000FF transparent transparent transparent;
+}

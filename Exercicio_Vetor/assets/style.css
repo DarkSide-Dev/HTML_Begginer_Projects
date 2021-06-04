@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #804129;
+}
+
+.form{
+    border: 3px solid black;
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    background-color: #CC5D31;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.form h1{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+
+    /* EFEITO DE UNDERLINE */
+    background: linear-gradient(black, black) no-repeat center 53px;
+	background-size: 0% 3px;
+    transition: background 0.3s ease;
+}
+
+.form h1:hover{
+    /* EFEITO DE UNDERLINE */
+    background-size: 100% 3px;
+    cursor: default;
+}
+
+label:hover, input[type="radio"]{
+    cursor: pointer;
+}
+
+.form input, select{
+    font-size: 15px;
+    width: 200px;
+    border-radius: 2px;
+    border: 3px solid white;
+    margin-top: 4px;
+    margin-bottom: -2px;
+}
+
+.form input:hover, .form input:focus, select:focus, select:hover{
+    background-color: white;
+    border: 3px solid slateblue;
+}
+
+.form input[type="submit"], input[type="button"]{
+    background-color: white;
+    width: 150px;
+    cursor: pointer;
+}
+
+.form input[type="radio"]{
+    width: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

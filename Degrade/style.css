@@ -1,0 +1,6 @@
+.exemplo{
+    width: 500px;
+    height: 200px;
+    background-color: blue;
+    background: linear-gradient(90deg,rgb(96, 96, 233), rgb(45, 45, 255), rgb(76, 76, 245));
+}

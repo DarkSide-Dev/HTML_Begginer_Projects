@@ -1,0 +1,127 @@
+.oi{
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+    margin: auto;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    overflow: hidden;
+    transition: ease all 1s;
+    -webkit-transition: ease all 1s;
+    -moz-transition: ease all 1s;
+    -ms-transition: ease all 1s;
+    -o-transition: ease all 1s;
+}
+
+.oi2{
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+    margin: auto;
+    transition: ease all 1s;
+    -webkit-transition: ease all 1s;
+    -moz-transition: ease all 1s;
+    -ms-transition: ease all 1s;
+    -o-transition: ease all 1s;
+}
+
+.oi3{
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+    margin: auto;
+    transition: ease all 3s;
+    -webkit-transition: ease all 3s;
+    -moz-transition: ease all 3s;
+    -ms-transition: ease all 3s;
+    -o-transition: ease all 3s;
+}
+
+.hum{
+    width: 100px;
+    height: 100px;
+    background-color: darkcyan;
+    margin: auto;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: ease all 0.5s;
+    -webkit-transition: ease all 0.5s;
+    -moz-transition: ease all 0.5s;
+    -ms-transition: ease all 0.5s;
+    -o-transition: ease all 0.5s;
+}
+
+.hum:hover{
+    transform: scale(3);
+    -webkit-transform: scale(3);
+    -moz-transform: scale(3);
+    -ms-transform: scale(3);
+    -o-transform: scale(3);
+}
+
+.rodando:hover{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.rodando2:hover{
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+}
+
+.rodando-contr{
+    width: 100px;
+    height: 100px;
+    background-color: darkcyan;
+    margin: auto;
+    transition: ease all 1s;
+    -webkit-transition: ease all 1s;
+    -moz-transition: ease all 1s;
+    -ms-transition: ease all 1s;
+    -o-transition: ease all 1s;
+}
+
+.rodando-contr:hover{
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+}
+
+.ue{
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+    margin: auto;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: ease all 1s;
+    -webkit-transition: ease all 1s;
+    -moz-transition: ease all 1s;
+    -ms-transition: ease all 1s;
+    -o-transition: ease all 1s;
+}
+
+.ue:hover{
+    transform: skew(20deg, 20deg);
+    -webkit-transform: skew(20deg, 20deg);
+    -moz-transform: skew(20deg, 20deg);
+    -ms-transform: skew(20deg, 20deg);
+    -o-transform: skew(20deg, 20deg);
+}

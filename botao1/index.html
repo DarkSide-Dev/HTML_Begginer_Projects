@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Botão CSS que responde ao clique</title>
+	<style>
+		html, body {
+			font-family: sans-serif;
+		}
+
+		body {
+			max-width: 40em;
+			margin: 2em auto;
+		}
+
+		main {
+			text-align: center;
+			font-size: 2em;
+		}
+
+		button {
+			font: inherit;
+			cursor: pointer;
+		}
+
+		.botao {
+			display: inline-block;
+			margin: 1.5em;
+			border: 0;
+			padding: 0.5em 1em;
+			text-decoration: none;
+			color: #FFF;
+			background: #F60;
+			text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+			border-radius: 0.5em;
+			box-shadow: 3px 3px 0 3px #930;
+			transition: box-shadow 0.3s ease, transform 0.3s ease;
+		}
+
+		.botao:active {
+			box-shadow: 0 0 0 0 #930,
+					inset 4px 4px 4px #930;
+			transform: translate(6px, 6px);
+		}
+	</style>
+</head>
+<body>
+
+<main>
+	<a href="#" class="botao">
+		Clique-me!
+	</a>
+
+	<button class="botao">
+		Clique-me!
+	</button>
+</main>
+	
+</body>
+</html>

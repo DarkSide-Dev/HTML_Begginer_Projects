@@ -1,0 +1,18 @@
+body{
+	margin: 0;
+}
+
+.exemplo{
+	width: 150px;
+	height: 150px;
+	background-color: green;
+	margin: auto;
+	margin-top: 100px;
+	box-shadow: 10px 10px 5px grey;
+	/* Primeiro valor: Distância horizontal;
+	   Segundo valor:  Distância vertical;
+	   Terceiro valor: Espalhamento da sombra;
+	   Quarto valor:   Cor; 
+	   Inset --> Sombra interna;*/
+
+}

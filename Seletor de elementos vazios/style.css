@@ -1,0 +1,8 @@
+div{
+    margin: 20px;
+    height: 30px;
+}
+
+div:empty{
+    background-color: rgb(250, 67, 67);
+}

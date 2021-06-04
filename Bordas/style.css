@@ -1,0 +1,20 @@
+body{
+	margin: 5px;
+	background-color: #8955FF;
+}
+
+.bordas{
+	background-color: #7C558E;
+	color:#000000;
+	font-weight: bold;
+	width: 400px;
+	height: 400px;
+	border: 3px double black;
+	text-align: center;
+
+	/* Comando para arredondar bordas */
+	border-radius: 100px;
+
+	word-wrap: break-word;
+	/* Comando para impedir algo de sair das bordas */
+}

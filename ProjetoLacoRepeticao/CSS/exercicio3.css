@@ -1,0 +1,28 @@
+.principal1{
+	width: 500px;
+	height: 2105px;
+	border: 5px solid #A15C34FF;
+	background-color: #629C62FF;
+}
+
+.dentroprincipal1{
+	margin: auto;
+	width: 75%;
+	height: 2105px;
+	background-color: #629C62FF;
+}
+
+.borda1{
+	width: 510px;
+	height: 2115px;
+	border: 5px solid #4F4F4FFF;
+	margin-top: 20px;
+}
+
+input{
+	border-radius: 10px;
+}
+
+.humm{
+	border-radius: 5px;
+}

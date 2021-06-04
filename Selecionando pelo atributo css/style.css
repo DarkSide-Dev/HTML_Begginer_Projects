@@ -1,0 +1,56 @@
+input, a{
+    display: block;
+}
+
+/* Para selecionar um atributo, se faz o seguinte: */
+
+[required]{
+
+    background-color: rgba(255, 0, 0, 0.5);
+
+}
+
+input[type=text]{
+
+    background-color: seagreen;
+
+}
+
+input[name='senha']{
+
+    background-color: steelblue;
+
+}
+
+/* Para se procurar algo que esteja dentro de um href, ou a mesma ideia, se coloca *=, ou seja, em qualquer posição */
+a[href*='politica']{ 
+
+    background-color: lightblue;
+
+}
+
+a[href*='futebol']{ 
+
+    background-color: lawngreen;
+
+}
+
+/* ^= selecionará apenas os que começam com '...' */
+a[href^='https']{
+
+    color: darkgoldenrod !important;
+
+}
+
+a[href^='http']{
+
+    color: crimson;
+
+}
+
+/* ^= selecionará apenas os que terminam com '...' */
+a[href$='ica']{
+
+    background-color: #123456;
+
+}

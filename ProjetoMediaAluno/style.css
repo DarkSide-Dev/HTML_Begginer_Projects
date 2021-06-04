@@ -1,0 +1,12 @@
+*{
+	font-size: 20px;
+}
+
+.div1{
+	float: left;
+}
+
+.div2{
+	float: right;
+	margin-right: 400px;
+}

@@ -1,0 +1,85 @@
+*{
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #904129;
+}
+
+h1, h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table{
+    width: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: space-around;
+}
+
+table td{
+    border: 2px solid black;
+}
+
+.area_filtro{
+    background-color: #CC5D31;
+    display: flex;
+    flex-flow: column;
+    width: 400px;
+    height: 450px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+hr{
+    margin: 50px;
+}
+
+.area_filtro form label{
+    font-size: 18px;
+    cursor: pointer;
+}
+.area_filtro form label input{
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.area_filtro form label input[type="checkbox"]{
+    font-size: 17px;
+}
+
+.tarefa{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    background-color: #694129;
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#submit{
+    display: inline-block;
+	margin: 1.5em;
+	border: 0;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	color: black;
+	background: #F60;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	border-radius: 0.5em;
+    box-shadow: 3px 3px 0 3px #930;
+}
+
+#submit:focus{
+    outline: none;
+}
+
+a img{
+    width: 50px;
+    margin-right: 10px;
+    position: absolute;
+}

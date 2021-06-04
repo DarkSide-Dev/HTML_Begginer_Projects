@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <title>Bootstrap - Início</title>
+    </head>
+
+    <body>
+        
+        <!-- A diferença de container para container-fluid, é que o fluid se expande de ponta a ponta na sua tela -->
+        <div class="container"> 
+
+            <!-- Classe row equivale a uma linha -->
+            <div class="row">
+
+                <!-- Classe col equivale as colunas, onde independente da quantidade, sempre vão ocupar o máximo de espaço possível -->
+                <div class="col-sm" style="background-color: darkgray; border: 1px solid black;">...</div>
+                <div class="col-sm" style="background-color: darkgray; border: 1px solid black;">...</div>
+                <div class="col-sm" style="background-color: darkgray; border: 1px solid black;">...</div>
+                <!-- SM: A coluna será quebrada em linhas em dispositivos pequenos -->
+                <!-- MD: A coluna será quebrada em linhas em dispositivos pequenos e médios -->
+                <!-- LG: A coluna será quebrada em linhas em dispositivos pequenos, médios e grandes -->
+
+            </div>
+
+            <!-- Classe row equivale a uma linha -->
+            <div class="row">
+
+                <!-- O máximo de tamanho equivale a 12 -->
+                <div class="col-3" style="background-color: grey; border: 1px solid black;">...</div>
+                <div class="col-5" style="background-color: grey; border: 1px solid black;">...</div>
+                <div class="col-2" style="background-color: grey; border: 1px solid black;">...</div>
+                <!-- Dando um valor, as outras logo se adaptarão automáticamente -->
+
+            </div>
+
+            <div class="row">
+
+                <!-- Para se ordenar divs, usa-se o comando order: -->
+                <div class="col order-2" style="background-color: lightgrey; border: 1px solid black;">Primeira</div>
+                <div class="col order-last" style="background-color: lightgrey; border: 1px solid black;">Segunda</div>
+                <div class="col order-first" style="background-color: lightgrey; border: 1px solid black;">Terceira</div>
+                <div class="col order-1" style="background-color: lightgrey; border: 1px solid black;">Quarta</div>
+                <div class="col order-3" style="background-color: lightgrey; border: 1px solid black;">Quinta</div>
+                <div class="col order-4" style="background-color: lightgrey; border: 1px solid black;">Sexta</div>
+                
+
+            </div>
+
+            <!-- Para se alinhar, se usa os mesmos comandos que uma FlexBox, mas o comando é usado ao lado da row -->
+            <div class="row justify-content-around align-items-end">
+
+                <!-- O máximo de tamanho equivale a 12 -->
+                <div class="col-3" style="background-color: rgb(241, 135, 135); border: 1px solid black;">...</div>
+                <div class="col-3" style="background-color: rgb(241, 135, 135); border: 1px solid black;">...</div>
+                <div class="col-3" style="background-color: rgb(241, 135, 135); border: 1px solid black;">...</div>
+                <!-- Dando um valor, as outras logo se adaptarão automáticamente -->
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+        <script src="assets/js/jquery-3.4.1.min.js"></script> <!-- Jquery sempre deve ser carregado primeiro -->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+    </body>
+
+</html>
